@@ -1,5 +1,5 @@
 {
-  "name": "image-convert-fixed",
+  "name": "image-convert-ali-fixed",
   "version": "0.1.33",
   "description": "convert image to different format like gif2jpg jpg2png also manage the quality & size",
   "main": "index.js",
