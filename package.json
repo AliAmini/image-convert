@@ -1,5 +1,5 @@
 {
-  "name": "image-convert",
+  "name": "image-convert-alivx",
   "version": "0.1.33",
   "description": "convert image to different format like gif2jpg jpg2png also manage the quality & size",
   "main": "index.js",
