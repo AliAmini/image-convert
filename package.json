@@ -21,7 +21,6 @@
   "homepage": "https://github.com/wadehrarshpreet/image-convert#readme",
   "dependencies": {
     "file-api": "^0.10.4",
-    "image-convert": "git+https://github.com/wadehrarshpreet/image-convert.git",
     "images": "^3.0.0",
     "request": "^2.79.0"
   }
