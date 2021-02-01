@@ -19,6 +19,7 @@ imgConvert.fromURL({
 	url:<url>,
 	quality: <quality[0..100]>,
 	output_format:<output_format>,
+	extension: <original_file_extension>, // this is optional (jpg|git|png)
 	size: <size{integer}>},function(err,buffer,file){//buffer=> base64 encode, file=> file object
 	if(!err)
 		console.log(res);//img buffer
