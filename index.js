@@ -45,7 +45,7 @@ module.exports = {
         if (quality == undefined) quality = 100
         if (output_format == undefined) output_format = "jpg"
         var filename = GetFilename(url);
-        var extension = GetFileExtension(url);
+        var extension = GetFileExtension(url) || options.extension;
         if ((extension == "jpg" || extension == "gif" || extension == "png") && (output_format == "jpg" || output_format == "png")) {
             try {
                 request.get(url, function(err, res, body) {
